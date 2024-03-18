@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-chatgpt"
+version = "0.1.0"
+description = "This is the SubProject for Python with OpenAI chatGPT"
+authors = ["parihardsp <deepak.parihar@blenheimchalcot.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyglet = "^2.0.14"
+fastapi = "^0.110.0"
+uvicorn = "^0.28.0"
+openai = "^1.14.1"
+requests = "^2.31.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
