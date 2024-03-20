@@ -29,6 +29,11 @@ async def hello_endpoint(name: str = 'World'):
 
 @app.post("/orders")
 async def place_order(product: str, units: int):
+    """
+    :param product:
+    :param units:
+    :return:
+    """
     return {"message": f"Your Orders for {units} {product} has been placed successfully!"}
 
 
